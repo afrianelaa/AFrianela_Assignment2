@@ -1,0 +1,20 @@
+{
+  "name": "customer-service-app",
+  "version": "1.0.0",
+  "description": "Customer Service Management Application",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
