@@ -3,12 +3,15 @@
 export default function ServiceDetails({ requests }) {
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleString('en-US', {
+    return date.toLocaleString('en-PH', {
       year: 'numeric',
       month: 'short',
       day: 'numeric',
       hour: '2-digit',
       minute: '2-digit',
+      second: '2-digit',
+      timeZone: 'Asia/Manila',
+      timeZoneName: 'short',
     });
   };
 
